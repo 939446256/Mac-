@@ -9,8 +9,8 @@
 import Cocoa
 
 extension String{
+    //获取对应的
     func getStr(_ begin: Int , end : Int) -> String{
-        
         let range = Range.init(self.characters.index(self.startIndex, offsetBy: begin)..<self.characters.index(self.startIndex, offsetBy: end + 1))
         return String(self[range])
     }
