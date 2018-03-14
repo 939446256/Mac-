@@ -1,0 +1,26 @@
+//
+//  AppDelegate.swift
+//  MiniAppAbandonedChecker
+//
+//  Created by 何嘉荣 on 2018/3/14.
+//  Copyright © 2018年 A了个K. All rights reserved.
+//
+
+import Cocoa
+
+@NSApplicationMain
+class AppDelegate: NSObject, NSApplicationDelegate {
+
+
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Insert code here to initialize your application
+    }
+
+    func applicationWillTerminate(_ aNotification: Notification) {
+        // Insert code here to tear down your application
+    }
+
+
+}
+
